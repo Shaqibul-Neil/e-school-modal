@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+
+	<!--meta tags-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-School</title>
+
+	<!--fontlinks-->
+
+	<!--favicon link-->
+	<link rel="icon" type="image/png" href="images/fav.png">
+	
+	<!--css links-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
+
+	<!--font awesome links-->
+	
+
+	
+	
+</head>
+<body>
+
+<!--header start-->
+
+<header>
+	<div class="container">
+		<!--navbar start-->
+		<nav class="navbar navbar-expand-lg cnav">
+		  <div class="container-fluid px-0">
+		  	<!--logo-->
+		    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid logo" alt="e-school"></a>
+		    <button class="navbar-toggler ntog" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+			    <div class="collapse navbar-collapse menu" id="nav-menu">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			      	<li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Books</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Courses</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Others</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Blog</a>
+			        </li>
+			      </ul>
+
+			      <!--sign in button trigger modal start-->
+			      <button type="button" class="btn btn_cm btn_sign" data-bs-toggle="modal" data-bs-target="#nav-modal">Sign In</button>
+
+					<!-- Modal start -->
+					<div class="modal fade" id="nav-modal" tabindex="-1" aria-labelledby="nav-modalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h1 class="modal-title mdl_h1" id="nav-modalLabel">Sign In</h1>
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body mdl">
+
+					      	<!--form start-->
+					        <form>
+							  <div class="mb-3">
+							    <label for="exampleInputEmail1" class="form-label m_lvl mb-2">Email address</label>
+							    <input type="email" class="form-control m_input mb-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please write your E-mail Address">
+							  <div class="mb-3">
+							    <label for="exampleInputPassword1" class="form-label m_lvl mb-2">Password</label>
+							    <input type="password" class="form-control m_input mb-2" id="exampleInputPassword1">
+							  </div>
+							</form>
+							<!--form end-->
+
+					      </div>
+					      <div class="modal-footer">
+					        <button type="reset" class="btn btn_cm btn_sign" data-bs-dismiss="modal">Reset</button>
+					        <button type="submit" class="btn btn_cm btn_sign">Submit</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Modal End -->
+
+			  	</div>
+		    </div>
+		  </div>
+		</nav>
+		<!--navbar end-->
+
+	</div>
+</header>
+<!--header end-->
+
+<!--banner start-->
+<section class="banner">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<!-- banner text -->
+			<div class="col-xl-5 col-lg-6 order-lg-1 order-2">
+				<div class="b_text">
+					<p class="b_p1 mb-0">Are you ready to Learn?</p>
+					<h1 class="b_h1">Learn With fun on <span>any schedule</span></h1>
+					<p class="b_p2 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+					<a href="#" class="btn btn_cm btn_b">Get Started</a>
+				</div>
+			</div>
+
+			<!-- banner image -->
+			<div class="offset-xl-1 col-xl-6 col-lg-6 order-lg-2 order-1">
+				<div class="b_img">
+					<img src="images/banner.png" class="w-100" alt="e-school">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--banner end-->
+
+<!-- feature start -->
+<section class="feature">
+	<div class="container">
+		<div class="row">
+
+			<!-- single item start -->
+			<div class="col-lg-3 col-sm-6">
+				<div class="f_item text-center">
+					<div class="f_img m-auto">
+						<img src="images/book.png" class="w-100" alt="e-school">
+					</div>
+					<h2 class="f_h2">1500+ Topic</h2>
+					<p class="f_p1 mb-0">Learn Anythings</p>
+				</div>
+			</div>
+			<!-- single item end -->
+
+			<!-- single item start -->
+			<div class="col-lg-3 col-sm-6">
+				<div class="f_item text-center">
+					<div class="f_img m-auto">
+						<img src="images/note.png" class="w-100" alt="e-school">
+					</div>
+					<h2 class="f_h2">1500+ Topic</h2>
+					<p class="f_p1 mb-0">Learn Anythings</p>
+				</div>
+			</div>
+			<!-- single item end -->
+
+			<!-- single item start -->
+			<div class="col-lg-3 col-sm-6">
+				<div class="f_item text-center">
+					<div class="f_img m-auto">
+						<img src="images/test.png" class="w-100" alt="e-school">
+					</div>
+					<h2 class="f_h2">1500+ Topic</h2>
+					<p class="f_p1 mb-0">Learn Anythings</p>
+				</div>
+			</div>
+			<!-- single item end -->
+
+			<!-- single item start -->
+			<div class="col-lg-3 col-sm-6">
+				<div class="f_item text-center">
+					<div class="f_img m-auto">
+						<img src="images/diary.png" class="w-100" alt="e-school">
+					</div>
+					<h2 class="f_h2">1500+ Topic</h2>
+					<p class="f_p1 mb-0">Learn Anythings</p>
+				</div>
+			</div>
+			<!-- single item end -->
+		</div>
+	</div>
+</section>
+<!-- feature end -->
+
+<!-- course start -->
+<section class="course">
+	<div class="container">
+
+		<!-- 1st row start -->
+
+		<div class="row justify-content-center">
+			<div class="col-lg-4">
+				<div class="cr_title text-center">
+					<h1 class="cr_h1 mb-0">Online Courses</h1>
+				</div>
+			</div>
+		</div>
+
+		<!-- 1st row end -->
+
+		<!-- 2nd row start -->
+
+		<div class="row c_row">
+
+			<!-- single item start -->
+
+			<div class="col-lg-4 col-md-8 col-sm-10 c_card">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="cr_img text-center">
+							<img class="w-100" src="images/board.png" alt="e-school">
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="cr_text">
+							<h2 class="cr_h2">Modern Psychology</h2>
+							<p class="cr_p mb-0">Designation</p>
+							<button class="btn btn_cm btn_cr">Buy Course</button>
+						</div>
+					</div>
+					<div class="cr_info">
+						<div class="c_cal">
+							<p class="cal_p mb-0">
+								<img src="images/calendar.png" alt="e-school" class="img-fluid">
+								Start 20  April, 2021
+							</p>
+						</div>
+						<div class="c_ppl">
+							<p class="cal_p mb-0">
+								<img src="images/people.png" alt="e-school" class="img-fluid">
+								60 seats
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- single item end -->
+
+			<!-- single item start -->
+
+			<div class="col-lg-4 col-md-8 col-sm-10 c_card">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="cr_img text-center">
+							<img class="w-100" src="images/library.png" alt="e-school">
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="cr_text">
+							<h2 class="cr_h2">Modern Psychology</h2>
+							<p class="cr_p mb-0">Designation</p>
+							<button class="btn btn_cm btn_cr">Buy Course</button>
+						</div>
+					</div>
+					<div class="cr_info">
+						<div class="c_cal">
+							<p class="cal_p mb-0">
+								<img src="images/calendar.png" alt="e-school" class="img-fluid">
+								Start 20  April, 2021
+							</p>
+						</div>
+						<div class="c_ppl">
+							<p class="cal_p mb-0">
+								<img src="images/people.png" alt="e-school" class="img-fluid">
+								60 seats
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- single item end -->
+
+			<!-- single item start -->
+
+			<div class="col-lg-4 col-md-8 col-sm-10 c_card">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="cr_img text-center">
+							<img class="w-100" src="images/laptop.png" alt="e-school">
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="cr_text">
+							<h2 class="cr_h2">Modern Psychology</h2>
+							<p class="cr_p mb-0">Designation</p>
+							<button class="btn btn_cm btn_cr">Buy Course</button>
+						</div>
+					</div>
+					<div class="cr_info">
+						<div class="c_cal">
+							<p class="cal_p mb-0">
+								<img src="images/calendar.png" alt="e-school" class="img-fluid">
+								Start 20  April, 2021
+							</p>
+						</div>
+						<div class="c_ppl">
+							<p class="cal_p mb-0">
+								<img src="images/people.png" alt="e-school" class="img-fluid">
+								60 seats
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- single item end -->
+
+		</div>
+
+		<!-- 2nd row end -->
+
+	</div>
+</section>
+<!-- course end -->
+
+<!-- testimonial start -->
+<section class="testimonial">
+	<div class="container">
+		
+		<!-- 1st row start -->
+
+		<div class="row justify-content-center">
+			<div class="col-lg-4">
+				<div class="cr_title text-center">
+					<h1 class="cr_h1 t_h1 mb-0">Testimonial</h1>
+				</div>
+			</div>
+		</div>
+
+		<!-- 1st row end -->
+
+		<!-- 2nd row start -->
+
+		<div class="row justify-content-center">
+			<div class="col-lg-9 t_item">
+				<div class="row t_col">
+
+					<!-- 1st item start -->
+
+					<div class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-6">
+						<div class="t_img">
+							<img class="w-100" src="images/review.png" alt="e-school">
+						</div>
+					</div>
+
+					<!-- 1st item end -->
+
+					<!-- 2nd item start-->
+
+					<div class="offset-xl-1 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-11">
+						<div class="t_text">
+							<p class="t_p mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						</div>
+					</div>
+
+					<!-- 2nd item end-->
+				</div>
+			</div>
+		</div>
+
+		<!-- 2nd row end -->
+
+	</div>
+</section>
+<!-- testimonial end -->
+
+<!-- footer top start -->
+<section class="footer_top">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-5 col-sm-12">
+				<div class="ft_details">
+					<p>Millions of people of all ages and from around the world are improving their lives with us. </p>
+					<p class="mb-0">Millions of people of all ages and from around the world are improving their lives with us. </p>
+				</div>
+			</div>
+
+			<div class="col-lg col-sm-4">
+				<div class="ft_links">
+					<h2>Course</h2>
+					<ul class="list-unstyled mb-0">
+						<li><a href="#">Graphic Design</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Marketing</a></li>
+						<li><a href="#">Engineering</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg col-sm-4">
+				<div class="ft_links">
+					<h2>Terms</h2>
+					<ul class="list-unstyled mb-0">
+						<li><a href="#">Graphic Design</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Marketing</a></li>
+						<li><a href="#">Engineering</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg col-sm-4">
+				<div class="ft_links">
+					<h2>Useful Link</h2>
+					<ul class="list-unstyled mb-0">
+						<li><a href="#">Graphic Design</a></li>
+						<li><a href="#">Web Design</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Marketing</a></li>
+						<li><a href="#">Engineering</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- footer top end -->
+
+<!-- footer start -->
+<footer>
+	<p class="mb-0 text-center">Copyright © 2020 <a href="#">shaqibul-neil</a></p>
+</footer>
+<!-- footer end -->
+
+
+
+<!--js links-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
